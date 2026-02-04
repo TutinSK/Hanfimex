@@ -1,0 +1,120 @@
+.why-choose-us {
+  padding: 5rem 2rem;
+  background: linear-gradient(rgba(248, 250, 248, 0.96), rgba(248, 250, 248, 0.96)),
+              url('https://images.unsplash.com/photo-1464226184884-fa280b87c399?w=1920') center/cover no-repeat;
+  background-attachment: fixed;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+.why-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+  width: 100%;
+}
+
+.reasons-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+  margin-top: 3rem;
+}
+
+.reason-card {
+  padding: 2rem;
+  background: rgba(255, 255, 255, 0.95);
+  border-radius: 10px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.12);
+  transition: all 0.3s;
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(44, 95, 45, 0.1);
+}
+
+.reason-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 12px 35px rgba(0, 0, 0, 0.18);
+}
+
+.reason-icon {
+  font-size: 3rem;
+  color: #2c5f2d;
+  margin-bottom: 1rem;
+}
+
+.reason-card h3 {
+  color: #333;
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+}
+
+.reason-card p {
+  color: #666;
+  line-height: 1.6;
+}
+
+/* Tablet */
+@media (max-width: 1024px) {
+  .why-choose-us {
+    padding: 4rem 1.5rem;
+    min-height: auto;
+  }
+  
+  .reasons-grid {
+    gap: 1.5rem;
+  }
+  
+  .reason-card {
+    padding: 1.5rem;
+  }
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .why-choose-us {
+    padding: 3rem 1.5rem;
+    background-attachment: scroll;
+    min-height: auto;
+  }
+  
+  .reasons-grid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+  
+  .reason-icon {
+    font-size: 2.5rem;
+  }
+  
+  .reason-card h3 {
+    font-size: 1.2rem;
+  }
+  
+  .reason-card p {
+    font-size: 0.95rem;
+  }
+}
+
+/* Small Mobile */
+@media (max-width: 480px) {
+  .why-choose-us {
+    padding: 2.5rem 1rem;
+  }
+  
+  .reason-card {
+    padding: 1.5rem 1rem;
+  }
+  
+  .reason-icon {
+    font-size: 2.2rem;
+  }
+  
+  .reason-card h3 {
+    font-size: 1.1rem;
+  }
+  
+  .reason-card p {
+    font-size: 0.9rem;
+  }
+}

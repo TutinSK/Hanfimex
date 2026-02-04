@@ -1,0 +1,161 @@
+.footer {
+  background: linear-gradient(rgba(26, 26, 26, 0.97), rgba(26, 26, 26, 0.97)),
+              url('https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=1920') center/cover no-repeat;
+  background-attachment: fixed;
+  color: #fff;
+  padding: 3rem 2rem 1rem;
+  min-height: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 3rem;
+  margin-bottom: 2rem;
+  background: rgba(0, 0, 0, 0.3);
+  padding: 2rem;
+  border-radius: 15px;
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.footer-section h3 {
+  color: #2c5f2d;
+  margin-bottom: 1.5rem;
+  font-size: 1.2rem;
+}
+
+.footer-section ul {
+  list-style: none;
+}
+
+.footer-section ul li {
+  margin-bottom: 0.8rem;
+}
+
+.footer-section a {
+  color: #ccc;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.footer-section a:hover {
+  color: #2c5f2d;
+}
+
+.contact-item {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+  align-items: flex-start;
+}
+
+.contact-item .icon {
+  font-size: 1.5rem;
+}
+
+.contact-item p {
+  color: #ccc;
+  line-height: 1.6;
+}
+
+.social-links {
+  display: flex;
+  gap: 1rem;
+}
+
+.social-links a {
+  font-size: 2rem;
+  transition: transform 0.3s;
+}
+
+.social-links a:hover {
+  transform: scale(1.2);
+}
+
+.footer-bottom {
+  border-top: 1px solid #333;
+  padding-top: 1.5rem;
+  text-align: center;
+  color: #888;
+}
+
+/* Tablet */
+@media (max-width: 1024px) {
+  .footer {
+    padding: 2.5rem 1.5rem 1rem;
+  }
+  
+  .footer-container {
+    gap: 2.5rem;
+  }
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .footer {
+    padding: 2.5rem 1.5rem 1rem;
+  }
+  
+  .footer-container {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    text-align: center;
+  }
+  
+  .footer-section ul {
+    padding: 0;
+  }
+  
+  .contact-item {
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+    text-align: center;
+  }
+  
+  .social-links {
+    justify-content: center;
+  }
+  
+  .footer-bottom {
+    font-size: 0.9rem;
+  }
+}
+
+/* Small Mobile */
+@media (max-width: 480px) {
+  .footer {
+    padding: 2rem 1rem 1rem;
+  }
+  
+  .footer-section h3 {
+    font-size: 1.1rem;
+  }
+  
+  .footer-section ul li {
+    margin-bottom: 0.6rem;
+  }
+  
+  .footer-section a {
+    font-size: 0.9rem;
+  }
+  
+  .contact-item p {
+    font-size: 0.9rem;
+  }
+  
+  .social-links a {
+    font-size: 1.8rem;
+  }
+  
+  .footer-bottom {
+    font-size: 0.85rem;
+    padding-top: 1rem;
+  }
+}
