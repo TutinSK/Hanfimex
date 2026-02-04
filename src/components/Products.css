@@ -1,8 +1,7 @@
 .products {
   padding: 5rem 2rem;
-  background: linear-gradient(rgba(255, 255, 255, 0.96), rgba(255, 255, 255, 0.96)),
-              url('https://images.unsplash.com/photo-1560493676-04071c5f467b?w=1920') center/cover no-repeat;
-  background-attachment: fixed;
+  background: linear-gradient(rgba(255, 255, 255, 0.90), rgba(255, 255, 255, 0.90)),
+              url('https://images.unsplash.com/photo-1560493676-04071c5f467b?w=1920&q=80') center/cover no-repeat fixed;
   min-height: 100vh;
   display: flex;
   align-items: center;
@@ -22,10 +21,6 @@
   max-width: 800px;
   margin: 1rem auto 3rem;
   line-height: 1.8;
-  background: rgba(255, 255, 255, 0.7);
-  padding: 1rem 2rem;
-  border-radius: 10px;
-  backdrop-filter: blur(5px);
 }
 
 .products-grid {
@@ -37,19 +32,16 @@
 
 .product-card {
   padding: 2rem;
-  background: rgba(255, 255, 255, 0.95);
+  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
   border-radius: 15px;
   transition: all 0.3s;
   cursor: pointer;
-  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.12);
-  backdrop-filter: blur(10px);
-  border: 1px solid rgba(44, 95, 45, 0.1);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
 }
 
 .product-card:hover {
   transform: scale(1.05);
-  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.2);
-  background: rgba(255, 255, 255, 1);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
 }
 
 .product-emoji {
@@ -88,8 +80,8 @@
 @media (max-width: 768px) {
   .products {
     padding: 3rem 1.5rem;
-    background-attachment: scroll;
     min-height: auto;
+    background-attachment: scroll;
   }
   
   .products-subtitle {

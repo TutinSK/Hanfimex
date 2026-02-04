@@ -1,7 +1,6 @@
 .hero {
-  background: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)),
-              url('https://images.unsplash.com/photo-1586202691880-5873f03fd7d3?w=1920') center/cover no-repeat;
-  background-attachment: fixed;
+  background: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)),
+              url('https://images.unsplash.com/photo-1500382017468-9049fed747ef?w=1920&q=80') center/cover no-repeat fixed;
   color: white;
   padding: 6rem 2rem;
   min-height: 100vh;
@@ -30,7 +29,6 @@
   overflow: hidden;
   border-radius: 10px;
   box-shadow: 0 20px 60px rgba(0, 0, 0, 0.6);
-  border: 3px solid rgba(255, 255, 255, 0.1);
 }
 
 .video-wrapper iframe {
@@ -44,26 +42,22 @@
 
 .hero-content {
   text-align: left;
-  background: rgba(0, 0, 0, 0.3);
-  padding: 2.5rem;
+  background: rgba(70, 70, 70, 0.9);
+  padding: 3rem;
   border-radius: 15px;
-  backdrop-filter: blur(10px);
-  border: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 .hero-title {
   font-size: 3rem;
   margin-bottom: 1.5rem;
   font-weight: bold;
-  text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.8);
 }
 
 .hero-description {
   font-size: 1.1rem;
   line-height: 1.8;
   margin-bottom: 2rem;
-  opacity: 1;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+  opacity: 0.95;
 }
 
 .hero-btn {

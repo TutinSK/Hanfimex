@@ -1,8 +1,7 @@
 .why-choose-us {
   padding: 5rem 2rem;
-  background: linear-gradient(rgba(248, 250, 248, 0.96), rgba(248, 250, 248, 0.96)),
-              url('https://images.unsplash.com/photo-1464226184884-fa280b87c399?w=1920') center/cover no-repeat;
-  background-attachment: fixed;
+  background: linear-gradient(rgba(248, 249, 250, 0.90), rgba(248, 249, 250, 0.90)),
+              url('https://images.unsplash.com/photo-1464226184884-fa280b87c399?w=1920&q=80') center/cover no-repeat fixed;
   min-height: 100vh;
   display: flex;
   align-items: center;
@@ -24,17 +23,16 @@
 
 .reason-card {
   padding: 2rem;
-  background: rgba(255, 255, 255, 0.95);
+  background: #ffffff;
   border-radius: 10px;
-  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.12);
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
   transition: all 0.3s;
-  backdrop-filter: blur(10px);
-  border: 1px solid rgba(44, 95, 45, 0.1);
+  border: 1px solid #e0e0e0;
 }
 
 .reason-card:hover {
   transform: translateY(-10px);
-  box-shadow: 0 12px 35px rgba(0, 0, 0, 0.18);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
 }
 
 .reason-icon {
@@ -74,8 +72,8 @@
 @media (max-width: 768px) {
   .why-choose-us {
     padding: 3rem 1.5rem;
-    background-attachment: scroll;
     min-height: auto;
+    background-attachment: scroll;
   }
   
   .reasons-grid {

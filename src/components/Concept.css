@@ -1,8 +1,7 @@
 .concept {
   padding: 5rem 2rem;
-  background: linear-gradient(rgba(255, 255, 255, 0.97), rgba(255, 255, 255, 0.97)),
-              url('https://images.unsplash.com/photo-1574943320219-553eb213f72d?w=1920') center/cover no-repeat;
-  background-attachment: fixed;
+  background: linear-gradient(rgba(255, 255, 255, 0.92), rgba(255, 255, 255, 0.92)),
+              url('https://images.unsplash.com/photo-1574943320219-553eb213f72d?w=1920&q=80') center/cover no-repeat fixed;
   min-height: 100vh;
   display: flex;
   align-items: center;
@@ -20,7 +19,6 @@
   margin-bottom: 3rem;
   position: relative;
   display: inline-block;
-  text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.8);
 }
 
 .section-title::after {
@@ -43,17 +41,16 @@
 
 .concept-item {
   padding: 2rem;
-  background: rgba(255, 255, 255, 0.95);
+  background: #ffffff;
   border-radius: 10px;
-  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s;
-  backdrop-filter: blur(10px);
-  border: 1px solid rgba(44, 95, 45, 0.1);
+  border: 1px solid #e0e0e0;
 }
 
 .concept-item:hover {
   transform: translateY(-5px);
-  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15);
 }
 
 .concept-icon {
@@ -104,8 +101,8 @@
 @media (max-width: 768px) {
   .concept {
     padding: 3rem 1.5rem;
-    background-attachment: scroll;
     min-height: auto;
+    background-attachment: scroll;
   }
   
   .section-title {
