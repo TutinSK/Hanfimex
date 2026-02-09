@@ -1,7 +1,7 @@
 .products {
   padding: 5rem 2rem;
-  background: linear-gradient(rgba(255, 255, 255, 0.90), rgba(255, 255, 255, 0.90)),
-              url('https://images.unsplash.com/photo-1560493676-04071c5f467b?w=1920&q=80') center/cover no-repeat fixed;
+  background: linear-gradient(rgba(235, 230, 220, 0.83), rgba(225, 220, 210, 0.83)),
+              url('https://images.unsplash.com/photo-1589927986089-35812388d1b8?w=1920&q=80') center/cover no-repeat fixed;
   min-height: 100vh;
   display: flex;
   align-items: center;

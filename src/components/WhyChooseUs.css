@@ -1,7 +1,7 @@
 .why-choose-us {
   padding: 5rem 2rem;
-  background: linear-gradient(rgba(248, 249, 250, 0.90), rgba(248, 249, 250, 0.90)),
-              url('https://images.unsplash.com/photo-1464226184884-fa280b87c399?w=1920&q=80') center/cover no-repeat fixed;
+  background: linear-gradient(rgba(220, 230, 225, 0.82), rgba(210, 225, 220, 0.82)),
+              url('https://images.unsplash.com/photo-1500076656116-558758c991c1?w=1920&q=80') center/cover no-repeat fixed;
   min-height: 100vh;
   display: flex;
   align-items: center;

@@ -1,7 +1,7 @@
 .concept {
   padding: 5rem 2rem;
-  background: linear-gradient(rgba(255, 255, 255, 0.92), rgba(255, 255, 255, 0.92)),
-              url('https://images.unsplash.com/photo-1574943320219-553eb213f72d?w=1920&q=80') center/cover no-repeat fixed;
+  background: linear-gradient(rgba(230, 225, 215, 0.85), rgba(220, 215, 205, 0.85)),
+              url('https://images.unsplash.com/photo-1625246333195-78d9c38ad449?w=1920&q=80') center/cover no-repeat fixed;
   min-height: 100vh;
   display: flex;
   align-items: center;

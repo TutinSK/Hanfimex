@@ -1,6 +1,6 @@
 .footer {
-  background: linear-gradient(rgba(26, 26, 26, 0.92), rgba(26, 26, 26, 0.92)),
-              url('https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=1920&q=80') center/cover no-repeat fixed;
+  background: linear-gradient(rgba(26, 26, 26, 0.88), rgba(26, 26, 26, 0.88)),
+              url('https://images.unsplash.com/photo-1511497584788-876760111969?w=1920&q=80') center/cover no-repeat fixed;
   color: #fff;
   padding: 3rem 2rem 1rem;
   min-height: 60vh;
