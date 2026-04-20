@@ -1,13 +1,22 @@
 import './Products.css'
 
+// TODO: Thay ảnh placeholder bằng ảnh thật
+// Đặt ảnh vào thư mục src/assets/icons/products/
+import cashewImg from '../assets/icons/products/cashew-nuts.png'
+import blackPepperImg from '../assets/icons/products/black-pepper.png'
+import whitePepperImg from '../assets/icons/products/white-pepper.png'
+import cinnamonImg from '../assets/icons/products/cinnamon.png'
+import coffeeImg from '../assets/icons/products/robusta-coffee.png'
+//import coconutImg from '../assets/icons/products/desiccated-coconuts.png'
+
 function Products() {
   const products = [
-    { name: 'Cashew Nuts', emoji: '🥜' },
-    { name: 'Black Pepper', emoji: '⚫' },
-    { name: 'White Pepper', emoji: '⚪' },
-    { name: 'Cinnamon', emoji: '🌿' },
-    { name: 'Robusta Coffee', emoji: '☕' },
-    { name: 'Desiccated Coconuts', emoji: '🥥' }
+    { name: 'Cashew Nuts', img: cashewImg },
+    { name: 'Black Pepper', img: blackPepperImg },
+    { name: 'White Pepper', img: whitePepperImg },
+    { name: 'Cinnamon', img: cinnamonImg },
+    { name: 'Robusta Coffee', img: coffeeImg },
+    // { name: 'Desiccated Coconuts', img: coconutImg },
   ]
 
   return (
@@ -22,7 +31,7 @@ function Products() {
         <div className="products-grid">
           {products.map((product, index) => (
             <div key={index} className="product-card">
-              <div className="product-emoji">{product.emoji}</div>
+              <img className="product-img" src={product.img} alt={product.name} />
               <h3>{product.name}</h3>
             </div>
           ))}
