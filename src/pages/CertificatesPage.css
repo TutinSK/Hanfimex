@@ -1,0 +1,21 @@
+.certificates-page {
+  padding: 5rem 2rem;
+  min-height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #f9f7f4;
+}
+
+.certificates-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.certificates-description {
+  font-size: 1.1rem;
+  color: #666;
+  margin-top: 2rem;
+  line-height: 1.8;
+}

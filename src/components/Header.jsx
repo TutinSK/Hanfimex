@@ -1,3 +1,4 @@
+import { NavLink } from 'react-router-dom'
 import './Header.css'
 
 function Header() {
@@ -5,17 +6,17 @@ function Header() {
     <header className="header">
       <div className="header-container">
         <div className="logo">
-          <h1>YourBrand</h1>
+          <NavLink to="/">
+            <h1>DAI LAM SPICES</h1>
+          </NavLink>
         </div>
         <nav className="nav">
-          <a href="#about">About Us</a>
-          <a href="#products">Our Products</a>
-          <a href="#news">News</a>
-          <a href="#contact">Contact Us</a>
+          <NavLink to="/">HOME</NavLink>
+          <NavLink to="/products">PRODUCTS</NavLink>
+          <NavLink to="/certificates">CERTIFICATES</NavLink>
+          <NavLink to="/about">ABOUT US</NavLink>
+          <NavLink to="/contact">CONTACT</NavLink>
         </nav>
-        <div className="header-contact">
-          <span>📞 +84 (24) 3200 3356</span>
-        </div>
       </div>
     </header>
   )

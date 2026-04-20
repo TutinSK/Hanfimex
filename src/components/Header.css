@@ -39,11 +39,16 @@
   color: #2c5f2d;
 }
 
-.header-contact {
+.nav a.active {
   color: #2c5f2d;
-  font-weight: 600;
-  white-space: nowrap;
+  font-weight: 700;
 }
+
+.logo a {
+  text-decoration: none;
+}
+
+
 
 /* Tablet */
 @media (max-width: 1024px) {
@@ -63,9 +68,6 @@
     font-size: 0.95rem;
   }
   
-  .header-contact {
-    font-size: 0.9rem;
-  }
 }
 
 /* Mobile */
@@ -96,9 +98,6 @@
     padding: 0.5rem;
   }
   
-  .header-contact {
-    font-size: 0.85rem;
-  }
 }
 
 /* Small Mobile */
@@ -111,7 +110,4 @@
     font-size: 0.85rem;
   }
   
-  .header-contact {
-    font-size: 0.8rem;
-  }
 }
